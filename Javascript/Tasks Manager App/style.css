@@ -1,0 +1,92 @@
+/**
+ *  Software name: Task Manager
+ *  author: Besian Krasniqi
+ *  version: 1.0
+ *  email: bksoftengineer@gmail.com
+ *  website: bksofteng.com
+ */
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#main {
+	width: 262px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	border: 1px solid #808080;
+	overflow: hidden;
+	padding: 5px;
+}
+
+#input1 {
+    margin-bottom: 10px;
+    width: 190px;
+}
+
+.strike {
+    z-index: 10;
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    padding: 0;
+    margin-bottom: 5px;
+    text-decoration: line-through;
+}
+.task {
+    border: 1px solid #929390;
+    margin-bottom: 5px;
+    background-color: #e1e1e1;
+    color: #585858;
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-left: 10px;
+    display: block;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.task a:link {
+    text-decoration: none;
+    color: #585858;
+    font-weight: bold;
+}
+
+.task a:hover {
+    text-decoration: none;
+    color: #585858;
+    font-weight: bold;
+
+}
+
+.task a:visited {
+    text-decoration: none;
+    color: #585858;
+    font-weight: bold;
+}
+
+
+
+span {
+	z-index: 10;
+	font-size: 14px;
+	width: 220px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	padding: 0;
+}
+
+.imgmn {
+	width: 30px;
+	height: 30px;
+	float: right;
+}
+
+

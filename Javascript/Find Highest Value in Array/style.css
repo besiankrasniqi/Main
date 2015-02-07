@@ -1,0 +1,10 @@
+
+#mndiv {
+	width: 650px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	border: 1px solid #808080;
+	background-color: #ef8c43;
+}

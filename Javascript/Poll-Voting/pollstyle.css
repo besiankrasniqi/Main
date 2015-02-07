@@ -1,0 +1,108 @@
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+#mndiv {
+	width: 350px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	border-radius: 10px;
+	background-color: #dadada;
+	border: 1px solid #808080;
+}
+
+
+.outerpoll {
+	width: 315px;
+	height: 60px;
+	margin-left: 20px;
+	border: 1px solid #616161;
+	background-color: #ff8000;
+	overflow: hidden;
+	margin-top: 5px;
+	border-radius: 7px;
+}
+
+.innerpollcontent {
+	width: 115px;
+	height: 60px;
+	padding-left: 5px;
+	line-height: 60px;
+	float: left;
+	font-weight: bold;
+	border-right: 1px solid #626262;
+	background-color: #c0c0c0;
+	
+}
+
+.innerpoll {
+	width: 194px;
+	float: left;
+	background-color: #e6e6e6;
+}
+
+.upper {
+	width: 180px;
+	height: 30px;
+	line-height: 30px;
+	
+}
+
+.lower {
+	width: 180px;
+	height: 30px;
+}
+
+.vbutton {
+	width: 50px;
+	height: 25px;
+	color: #000;
+	margin-left: 5px;	
+}
+
+
+.ll {
+	width: 115px;
+	height: 30px;
+	line-height: 30px;
+	float: left; 
+	margin-left: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.lr {
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	float: left; 
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.tvotestext {
+	width: 125px;
+	height: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+}
+
+#votetotal {
+	width: 100px;
+	height: 20px;
+	margin-top: 20px;
+	float: left;
+}

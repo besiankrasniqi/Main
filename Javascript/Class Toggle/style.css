@@ -1,0 +1,91 @@
+
+/*Author: Besian Krasniqi
+*email: bksofteng@gmail.com
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#b1 {
+    width: 140px;
+    height: 40px;
+    background-color: #ff9d40;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    border: 1px solid #3a3a3a;
+}
+
+#b1 a:link {
+    text-decoration: none;
+    color: #393939;
+    display: block;
+}
+
+#b1 a:hover {
+    text-decoration: none;
+    color: #393939;
+}
+
+#b1 a:visited {
+    text-decoration: none;
+    color: #393939;
+}
+/*Styles applied to element One*/
+.blue {
+    width: 500px;
+    height: 300px;
+    margin: 10px auto 0 auto;
+    background-color: blue;
+    text-align: center;
+    line-height: 300px;
+}
+.green {
+    background-color: green;
+    width: 500px;
+    height: 300px;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    line-height: 300px;
+}
+/*End of styles applied to element One*/
+
+/*Styles applies to element Two*/
+.grey {
+    width: 300px;
+    height: 200px;
+    background-color: #7f7f7f;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    line-height: 200px;
+}
+.orange {
+    width: 300px;
+    height: 200px;
+    background-color: #c07448;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    line-height: 200px;
+}
+/*End of styles applied to element Two*/
+
+/*Styles applied to element Three*/
+.red {
+    width: 350px;
+    height: 150px;
+    background-color: red;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    line-height: 150px;
+}
+.yellow {
+    width: 350px;
+    height: 150px;
+    background-color: #fff926;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    line-height: 150px;
+}
+
+/*End of styles applied to element Three*/

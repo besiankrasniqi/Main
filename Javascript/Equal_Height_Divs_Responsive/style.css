@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrap-main {
+    width: 65%;
+    height: 600px;
+    padding: 1%;
+    background-color: #e88e45;
+    border: 1px solid #595959;
+    margin: 40px auto 0 auto;
+}
+.some {
+    width: 47%;
+    overflow: hidden;
+    padding: 1%;
+    float: left;
+    background-color: #d1d1d1;
+    border: 1px solid #4f4f4f;
+}

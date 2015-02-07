@@ -1,0 +1,165 @@
+
+body {
+	font-family: Arial, helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 4px;
+}
+
+.paramn {
+	margin-top: -7px;
+	font-size: 11px;
+}
+
+#mndiv {
+	width: 960px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background-color: #eeeeee;
+}
+
+#mnheader {
+	width: 960px;
+	height: 100px;
+	background-color: #808040;
+	float: left;
+}
+
+#mnnav {
+	width: 960px;
+	height: 35px;
+	background-color: #a6a6a6;
+	float: left;
+}
+
+
+.nav1left {
+	width: 160px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #efefef;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #f27900;
+	float: left;
+	
+}
+
+.nav1 {
+	width: 157px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	color: #efefef;
+	font-weight: bold;
+	font-size: 13px;
+	background-color: #f27900;
+	float: left;
+	margin-left: 3px;
+	
+}
+
+#mnnav a:link {
+	display: block;
+	text-decoration: none;
+	color: #efefef;
+}
+
+#mnnav a:visited {
+	display: block;
+	text-decoration: none;
+	color: #efefef;
+}
+
+.rowt1 {
+	width: 930px;
+	height: 300px;
+	padding: 7px;
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: #c0c0c0;
+	float: left;
+	font-size: 12px;
+}
+
+
+#mnnav a:hover {
+	display: block;
+	text-decoration: none;
+	color: #efefef;
+	background-color: #5b4822;
+}
+
+.listprops {
+	width: 250px;
+	height: 290px;
+	background-color: #e0e0e0;
+	border: 1px solid #9d9d9d;
+	display: none;
+	position: absolute;
+}
+
+.menudivs {
+	width: 228px;
+	height: 55px;
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	padding-left: 7px;
+	border: 1px solid #9d9d9d;
+	background-color: #c0d066;
+}
+
+
+.photomain {
+	float: right;
+	border: 1px solid #808080;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+.butcontrols {
+	width: 70px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #494949;
+	margin-top: 10px;
+	float: left;
+	margin-left: 5px;
+	border: 1px solid #aeaeae;
+	border-radius: 3px;
+}
+
+.butcontrols a:link {
+	text-decoration: none;
+	color: #d8d8d8;
+	background-color: #494949;
+	display: block;
+}
+
+.butcontrols a:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #d8d8d8;
+	background-color: #494949;
+	display: block;
+}
+
+.butcontrols a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: #d8d8d8;
+	background-color: #d95709;
+	display: block;
+}
+

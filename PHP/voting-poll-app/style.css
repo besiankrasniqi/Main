@@ -1,0 +1,116 @@
+
+/**
+ * Author: Besian Krasniqi
+ * email: email: bksoftengineer@gmail.com 
+ * website: bksofteng.com
+ */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.main_wrapper {
+	width: 200px;
+	height: 247px;
+	margin: 30px auto 0 auto;
+	border-radius: 5px;
+	border: 1px solid #797979;
+	background-image: url('images/bg.png');
+}
+
+h1 {
+	color: #e6e1e1;
+	font-size: 20px;
+	margin: 7px 0 0 15px;
+}
+
+.current_votes {
+	width: 90px;
+	height: 20px;
+	line-height: 20px;
+	font-weight: bold;
+	float: left;
+	margin: 5px 0 0 17px;
+
+}
+
+.votes_descr {
+	width: 25px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	margin: 5px 0 0 0;
+
+}
+
+.vote_container {
+	width: 65px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 5px; 
+	font-size: 10px;
+	font-weight: bold;
+	float: left;
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+
+}
+
+.vote_container button {
+	height: 20px;
+	font-size: 10px;
+	font-weight: bold;
+	border-radius: 2px;
+	border: 1px solid #7A7A7A;
+	background-color: #B7B7B7;
+}
+
+.vote_container button:hover {
+	background-color: #F28F24;
+	border: 1px solid #7A7A7A;
+	border-radius: 2px;	
+	cursor: hand;
+	cursor: pointer;	
+}
+
+.tkyou {
+	width: 150px;
+	height: 40px;
+	font-weight: bold;
+	border-radius: 5px;
+	float: left;
+	padding: 5px 0 0 0;
+	margin: 15px 0 0 24px;
+	text-align: center;
+	background-color: #F2E494;
+	border: 1px solid #9a9a9a; 
+}
+
+.main_wrapper a:link {
+	color: #385cc3;
+	text-decoration: none;
+	
+}
+
+.main_wrapper a:hover {
+	color: #e15a00;
+	text-decoration: none;
+	
+}
+
+.main_wrapper a:visited {
+	color: #385cc3;
+	text-decoration: none;
+}
+
+.header {
+	width: 200px;
+	height: 40px;
+	background-color: #4f6686;
+	float: left;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	margin: 0 0 10px 0;
+}

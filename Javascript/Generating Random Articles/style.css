@@ -1,0 +1,103 @@
+
+/* Author: Besian Krasniqi
+*  email: bksoftengineer@gmail.com
+*  website: bksofteng.com 
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+
+#main_wrapper {
+    width: 960px;
+    border: 1px solid #777777;;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    padding-bottom: 5px;
+    border-color: #535353;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
+#mn_controls {
+    width: 960px;
+    height: 40px;
+    background-color: #6db4cc;
+    float: left;
+    border-bottom: 1px solid #777777;
+}
+
+#b1 {
+    width: 170px;
+    height: 25px;
+    margin-top: 5px;
+    margin-left: 5px;
+    line-height: 25px;
+    background-color: #cccccc;
+    border: 1px solid;
+    font-weight: bold;
+    text-align: center;
+    border-color: #535353;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#b1 a:link, a:visited{
+    display: block;
+    text-decoration: none;
+    color: #535353;
+}
+
+#b1 a:hover{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #e26e1d;
+}
+
+.alldvs {
+    width: 223px;
+    height: 135px;
+    background-color: #8fcc4c;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    padding: 5px;
+}
+
+#n1.alldvs  {background-color: #f44e15;}
+#n2.alldvs  {background-color: #f42f6c;}
+#n3.alldvs  {background-color: #5b91f4;}
+#n4.alldvs  {background-color: #56f4cd;}
+#n5.alldvs  {background-color: #f4ed3b;}
+#n6.alldvs  {background-color: #fbff10;}
+#n7.alldvs  {background-color: #cc5158}
+#n8.alldvs  {background-color: #d2d2d2;}
+#n9.alldvs  {background-color: #dbf494;}
+#n10.alldvs  {background-color: #f4acc9;}
+#n11.alldvs  {background-color: #99b7f4;}
+#n12.alldvs  {background-color: #77f467;}
+#n13.alldvs  {background-color: #5086f4;}
+#n14.alldvs  {background-color: #2d6df4;}
+#n15.alldvs  {background-color: #41ae33;}
+#n16.alldvs  {background-color: #7670f4;}
+#n17.alldvs  {background-color: #c8b020;}
+#n18.alldvs  {background-color: #96f48a;}
+#n19.alldvs  {background-color: #bdd1f4;}
+#n20.alldvs  {background-color: #bf4988;}
+
+
+
+
+
+h1 {
+    font-size: 14px;
+    line-height: 14px;
+}

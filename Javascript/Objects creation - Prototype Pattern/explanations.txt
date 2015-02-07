@@ -1,0 +1,4 @@
+
+Scripts show different ways for creating objects in JavaScript
+
+mnscript5.js is the most used/standard or preferred way of creating class/objects

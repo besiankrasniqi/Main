@@ -1,0 +1,22 @@
+
+#mndiv{
+	width: 750px;
+	height: 550px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ff8000;
+	border: 1px solid #808080;
+}
+
+#scdiv {
+	width: 350px;
+	height: 270px;
+	background-color: #c0c0c0;
+	border: 1px solid #808080;
+	right: 50px;
+
+	border-radius: 10px;
+	position: fixed;
+	display: none;
+}
