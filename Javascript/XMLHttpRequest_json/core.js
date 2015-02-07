@@ -23,7 +23,6 @@ function showJSON () {
     for (var prop in getFile) {
         result += "<li>"  + prop + " : " + getFile[prop] + "</li>";
         mainContainer.innerHTML = result;
-        console.log(result);
     }
 
 }
