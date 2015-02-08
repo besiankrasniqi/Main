@@ -13,7 +13,6 @@ oReq.open("get", url, true);
 oReq.onload = showJson;
 oReq.send();
 
-
 function showJson() { 
 	if (oReq.readyState == 4 ) {
 		if (oReq.status >= 200 || oReq.staus <= 300 || oReq.status == 304) {
@@ -24,7 +23,5 @@ function showJson() {
 	else {
 		mainContainer.innerHTML = "The file " + url + " could not be loaded";
 	}
-
-
 } 
 
