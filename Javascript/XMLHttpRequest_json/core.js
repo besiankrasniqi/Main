@@ -7,9 +7,10 @@
 
 //Retrieving a JSON file using pure JavaScript
 var mainContainer = document.getElementById("main");
+var url = "file1.json";
 
 var oReq = new XMLHttpRequest();
-oReq.open("get", "file1.json", true);
+oReq.open("get", url, true);
 oReq.onload = showJSON;
 
 oReq.send();
@@ -17,12 +18,18 @@ oReq.send();
 function showJSON () {
     console.log(this.responseText);
     var getFile = JSON.parse(this.responseText);
-//    mainContainer.innerHTML = getFile.name;
     var result = "<ul>";
 
-    for (var prop in getFile) {
-        result += "<li>"  + prop + " : " + getFile[prop] + "</li>";
-        mainContainer.innerHTML = result;
-    }
-
+	if (oReq.readyState == 4 ) {
+		if (oReq.status >= 200 || oReq.staus <= 300 || oReq.status == 304) {
+		    for (var prop in getFile) {
+		        result += "<li>"  + prop + " : " + getFile[prop] + "</li>";
+		        mainContainer.innerHTML = result;
+		        console.log(result);
+		    }
+		}
+	}
+	else {
+		mainContainer.innerHTML = "The file " + url + " could not be loaded";
+	}
 }
