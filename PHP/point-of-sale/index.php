@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>php demo</title>
+  <title>Point of Sale</title>
   
   <link href="style.css" type="text/css" rel="stylesheet">
 </head>

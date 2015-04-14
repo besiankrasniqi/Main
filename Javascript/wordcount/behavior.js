@@ -62,7 +62,7 @@ var wordsCount = {
         var theText = this.areaTxt.value;
         theText = theText.replace(/(^\s*)|(\s*$)/gi,"");
         theText = theText.replace(/[ ]{2,}/gi," ");
-        theText = theText.replace(/\n /,"\n");
+        theText = theText.replace(/\n /,"\n"); /* building text */
 
         var allVals = wordsCount.initVals("a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
               "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "x", "y", "z", 1,
