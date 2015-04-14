@@ -77,18 +77,18 @@ var wordsCount = {
         result += '<strong>Character count (including spaces): </strong>' + this.areaTxt.value.length + '</br>';
 
         for ( var p in allVals ) {
-            var rg = allVals[p];
-            var _rG = new RegExp(rg, "g");
+            var pVals = allVals[p];
+            var _rG = new RegExp(pVals, "g");
 
             if ( origText.match(_rG) !== null ) {
                 if (allVals.hasOwnProperty(p) ) {
                     p = theText.match(_rG).length;
                 }
-                if (rg.length == 0) {
-                    rg = "no custom word";
+                if (pVals.length == 0) {
+                    pVals = "no custom word";
                 }
                 else {
-                    result += '<strong> "' + rg + '" count: </strong>' + p + '</br>';
+                    result += '<strong> "' + pVals + '" count: </strong>' + p + '</br>';
                 }
             }
             else {
