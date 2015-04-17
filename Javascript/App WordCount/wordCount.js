@@ -4,6 +4,10 @@
  * website: www.bksofteng.com
  */
 
+/**
+ * See it live at: http://www.bksofteng.com/code/word-count
+ */
+
 var wordsCount = {
     CalculateBtn : document.getElementById("calculate"),
     areaTxt : document.getElementById("area-txt"),

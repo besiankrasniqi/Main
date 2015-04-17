@@ -6,6 +6,10 @@
  *	website: bksofteng.com
  */
 
+/**
+ * See it live at: http://www.bksofteng.com/code/task-manager-app
+ */
+
 var Task = {
 		submit : $("#submit"),
 		parent : $("#main"),
