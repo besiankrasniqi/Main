@@ -11,8 +11,8 @@
  */
 
 var Task = {
-		submit : $("#submit"),
-		parent : $("#main"),
+	    submit : $("#submit"),
+	    parent : $("#main"),
         tasks: $("#tasks"),
 
         toggleState: function(e) {
